@@ -24,5 +24,5 @@ The current version of the code is not optimized for speed
    ```
    python sigma.py filename > sigma.out
    ```
-The output files `Pop.filename.out`  and `Reco.filename.dat`
+The output files `Pop.filename.out`  and `Sigma.filename.dat`
 
