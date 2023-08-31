@@ -10,12 +10,12 @@ and variance-based approaches, J. Chem. Theory Comput. 17, 5492–5508 (2021).
   J. E. Peralta, Generalized Spin $\sigma$-SCF Method (to be submitted).
 
 ### Instructions  
-1) Install [PySCF](https://pyscf.org) to obtain one- and two-electron integrals.
+1) Install [PySCF](https://pyscf.org), needed to obtain one- and two-electron integrals.
 Then use
 ```
 python integrals.py
 ```
-to generate the integrals. You can edit the `integrals.py` file as needed.
+to generate the integrals and store them. You can edit the `integrals.py` file as needed to change the system at hand.
 
 ⚠️ The current version of the code is not optimized for speed.<br>
 ℹ️ A version of this code that utilizes Gaussian matrix files can be provided upon request.<br>
@@ -24,6 +24,5 @@ to generate the integrals. You can edit the `integrals.py` file as needed.
 ```
 python sigma.py filename > sigma.out
 ```
-The output files `Pop.filename.out`  and `Sigma.filename.dat` should be created after a successful termination.
-Edit the file `sigma.py` as needed.
+After a successful termination, the output files `Pop.filename.out`  and `Sigma.filename.dat` should be created with the population analysis and the summary of the results, respectively. Edit the file `sigma.py` as needed for the purpose of the calculation. More information can be found as comments in the different files. 
 
