@@ -18,11 +18,13 @@ python integrals.py
 to generate the integrals and store them. You can edit the `integrals.py` file as needed to change the system at hand.
 
 ⚠️ The current version of the code is not optimized for speed.<br>
-ℹ️ A version of this code that utilizes Gaussian matrix files can be provided upon request.<br>
+ℹ️ A version of this code that utilizes [Gaussian 16](https://gaussian.com/gaussian16/) matrix files can be provided upon request.<br>
 
 2) Run in the command line
 ```
 python sigma.py filename > sigma.out
 ```
-After a successful termination, the output files `Pop.filename.out`  and `Sigma.filename.dat` should be created with the population analysis and the summary of the results, respectively. Edit the file `sigma.py` as needed for the purpose of the calculation. More information can be found as comments in the different files. 
+After a successful termination, the output files `Pop.filename.out`  and `Sigma.filename.dat` should be created with the population analysis and the summary of the results, respectively. Edit the file `sigma.py` as needed for the purpose of the calculation. More information can be found as comments in the different files.
+
+
 
