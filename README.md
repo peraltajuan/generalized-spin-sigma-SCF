@@ -17,15 +17,13 @@ python integrals.py
 ```
 to generate the integrals. You can edit the `integrals.py` file as needed.
 
-[!WARNING]
-The current version of the code is not optimized for speed
-
-[!NOTE] A version of this code that utilizes Gaussian matrix files can be provided upon request.
+⚠️ The current version of the code is not optimized for speed.<br>
+ℹ️ A version of this code that utilizes Gaussian matrix files can be provided upon request.<br>
 
 2) Run in the command line
-   ```
-   python sigma.py filename > sigma.out
-   ```
+```
+python sigma.py filename > sigma.out
+```
 The output files `Pop.filename.out`  and `Sigma.filename.dat` should be created after a successful termination.
 Edit the file `sigma.py` as needed.
 
