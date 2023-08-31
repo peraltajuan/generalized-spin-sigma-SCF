@@ -97,7 +97,7 @@ def main():
   data_to_save =[]  
 
 
-  file_dat = open( 'SA.'+fname+'.dat'  , 'w' )
+  file_dat = open( 'sigma.'+fname+'.dat'  , 'w' )
 
 
   #  This is the main loop
