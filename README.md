@@ -1,4 +1,4 @@
-# generalized spin $\sigma$-SCF
+# Generalized spin $\sigma$-SCF
 This Python 3 code performs generalized spin $\sigma$-SCF with 2-component spinors. 
 Please see these publications for details
 + H.-Z. Ye, M. Welborn, N. D. Ricke, and T. Van Voorhis, $\sigma$-SCF: A direct energy-targeting
