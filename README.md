@@ -11,7 +11,8 @@ and variance-based approaches, J. Chem. Theory Comput. 17, 5492–5508 (2021).
 
 ### Instructions  
 1) Install [PySCF](https://pyscf.org), needed to obtain one- and two-electron integrals.
-Then use
+
+2) Then use
 ```
 python integrals.py
 ```
@@ -20,7 +21,7 @@ to generate the integrals and store them. You can edit the `integrals.py` file a
 ⚠️ The current version of the code is not optimized for speed.<br>
 ℹ️ A version of this code that utilizes [Gaussian 16](https://gaussian.com/gaussian16/) matrix files can be provided upon request.<br>
 
-2) Run in the command line
+3) Run in the command line
 ```
 python sigma.py filename > sigma.out
 ```
