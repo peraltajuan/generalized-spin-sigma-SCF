@@ -6,7 +6,7 @@ method to mean-field excited states, J. Chem. Phys. 147, 214104 (2017)
 + G. David, T. J. P. Irons, A. E. A. Fouda, J. W. Furness, and A. M. Teale, Self-consistent
 field methods for excited states in strong magnetic fields: a comparison between energy-
 and variance-based approaches, J. Chem. Theory Comput. 17, 5492–5508 (2021).
-+ O. B. Oña, G. E. Massacces, J. I. Melo, A. Torre, L. Lain, D. R. Alcoba, and
++ O. B. Oña, G. E. Massaccesi, J. I. Melo, A. Torre, L. Lain, D. R. Alcoba, and
   J. E. Peralta, Generalized Spin $\sigma$-SCF Method (to be submitted).
 
 ### Instructions  
