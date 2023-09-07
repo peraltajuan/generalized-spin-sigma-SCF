@@ -61,7 +61,7 @@ def main():
   G = sq2ei_G(g,Nbas)
 
 # This is the initial density matrix to be used. It is the occupation number matrix but it can be changed.
-# the transformation to an orthonormal basis is done using the MO coefficients in C.
+# The transformation to an orthonormal basis is done using the MO coefficients in C.
   P_MO = np.zeros((2*Nbas,2*Nbas),dtype=complex)
 #  for i in range(NE): 
 #        P_MO[i,i] = 1.00
@@ -83,8 +83,8 @@ def main():
 
   MaxSCF = 1000             # Maximum number of SCF iteration
   Iter_SA = 1000            # Number of Simulated Annealing steps
-  method = dispersor         # fock or dispersor
-  just_var = False           # just_var=True works with the variance instead of the full dispersor
+  method = dispersor        # fock or dispersor
+  just_var = False          # just_var=True works with the variance instead of the full dispersor
 
   # The array 'omegas' contains all the omega values to scan
   omegas = np.linspace(-3.00,-1.50, 300 , endpoint=True)
@@ -100,7 +100,8 @@ def main():
   file_dat = open( 'sigma.'+fname+'.dat'  , 'w' )
 
 
-  #  This is the main loop
+  #  Start main loop
+ 
   for io, omega in enumerate(omegas):
 
      prt_sep(width) 
@@ -180,6 +181,7 @@ def main():
 
   
 ###########################################################################
-main()
+if __name__=='__main__':
+    main()
 
 
