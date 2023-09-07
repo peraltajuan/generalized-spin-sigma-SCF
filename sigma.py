@@ -109,7 +109,7 @@ def main():
          print(f'Starting {Iter_SA:g} iterations simulated annealing with {str_target:s} and omega = {omega:7.4f}')
 
 
-         P_SA, target_SA = sim_ann(h,G,C,P_MO,S,Sinv,omega,NE,Iter_SA,method,just_var=just_var)
+         P_SA, target_SA = sim(h,G,C,P_MO,S,Sinv,omega,NE,Iter_SA,method,just_var=just_var)
          En_SA  = fock(P_SA,h,G,0,0,just_en=True)
 
 
