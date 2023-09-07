@@ -1,18 +1,20 @@
 # Generalized spin $\sigma$-SCF
-This Python 3 code performs generalized spin $\sigma$-SCF calculations with 2-component spinors. 
-Please see these publications for details
+This Python 3 code performs generalized spin $\sigma$-SCF calculations with 2-component (complex) spinors. 
+The code can minimize the Hamiltonian dispersion using simulated annealing and/or self-consistent field iterations.
+Please see these publications for details:
++ O. B. Oña, G. E. Massaccesi, J. I. Melo, A. Torre, L. Lain, D. R. Alcoba, and
+  J. E. Peralta, Generalized Spin $\sigma$-SCF Method (this work; to be submitted).
 + H.-Z. Ye, M. Welborn, N. D. Ricke, and T. Van Voorhis, $\sigma$-SCF: A direct energy-targeting
 method to mean-field excited states, J. Chem. Phys. 147, 214104 (2017)
 + G. David, T. J. P. Irons, A. E. A. Fouda, J. W. Furness, and A. M. Teale, Self-consistent
 field methods for excited states in strong magnetic fields: a comparison between energy-
 and variance-based approaches, J. Chem. Theory Comput. 17, 5492–5508 (2021).
-+ O. B. Oña, G. E. Massaccesi, J. I. Melo, A. Torre, L. Lain, D. R. Alcoba, and
-  J. E. Peralta, Generalized Spin $\sigma$-SCF Method (to be submitted).
+
 
 ### Instructions  
-1) Install [PySCF](https://pyscf.org), needed to obtain one- and two-electron integrals.
+1) Install [PySCF](https://pyscf.org). Thsi is needed to obtain one- and two-electron integrals.
 
-2) Then use
+2) Use
 ```
 python integrals.py
 ```
