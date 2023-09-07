@@ -73,7 +73,7 @@ def main():
  
   # Notes:
   #  MaxSCF = 0    :do only simulated annealing
-  #  Iter_SA = 0 :do only SCF
+  #  Iter_SA = 0   :do only SCF
   #  MaxSCF and Iter_SA non-zero to do a sequence of simulated annealing plus SCF
   #  Only the omegas that complete successfully the prescribed sequence should get printed
   #  At the end of each omega, a population analysis is printed in a .out file
@@ -81,8 +81,8 @@ def main():
   #  the simulated annealing step. This is handled with the Exception.
 
 
-  MaxSCF = 1000 
-  Iter_SA = 1000
+  MaxSCF = 1000             # Maximum number of SCF iteration
+  Iter_SA = 1000            # Number of Simulated Annealing steps
   method = dispersor         # fock or dispersor
   just_var = False           # just_var=True works with the variance instead of the full dispersor
 
@@ -153,7 +153,6 @@ def main():
          P_scf = P_SA
          target_scf = target_SA
          success = False
-#         success = False
          pass
 
 #    possibly keep the same density
@@ -173,14 +172,14 @@ def main():
 
 
 
-# we need to save at every iteration....
+# 
   file_dat.close()
   end = timer()
   print(f'Time for {len(omegas):g} iterations: ', end-start )
   sys.stdout.close()
 
   
-##############################
+###########################################################################
 main()
 
 
