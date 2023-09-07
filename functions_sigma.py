@@ -448,7 +448,7 @@ def accept(Enew,Eold,T):
            Ex = 0.                        
        return  random.uniform(0.,1.)*(1.+Ex) < Ex
 
-def sigma(h,G,C,P_MO,S,Sinv,omega,NE,Niter,method,**kwargs):
+def sim(h,G,C,P_MO,S,Sinv,omega,NE,Niter,method,**kwargs):
     '''
     Main loop 
     h: core hamiltonian
@@ -500,7 +500,7 @@ def sigma(h,G,C,P_MO,S,Sinv,omega,NE,Niter,method,**kwargs):
     return Pf , Ef
 
 
-def usigma(h,G,C,P_MO,S,Sinv,omega,NE,Niter,method,**kwargs):
+def usim(h,G,C,P_MO,S,Sinv,omega,NE,Niter,method,**kwargs):
     '''
     Main loop 
     h: core hamiltonian
@@ -552,7 +552,7 @@ def usigma(h,G,C,P_MO,S,Sinv,omega,NE,Niter,method,**kwargs):
     return Pf , Ef
 
 
-def rosigma(h,G,C,P_MO,S,Sinv,omega,NE,Niter,method,**kwargs):
+def rosim(h,G,C,P_MO,S,Sinv,omega,NE,Niter,method,**kwargs):
     '''
     Main loop 
     h: core hamiltonian
