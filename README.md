@@ -26,6 +26,6 @@ to generate the integrals and store them. You can edit the `integrals.py` file a
 ```
 python sigma.py filename > sigma.out
 ```
-After a successful termination, the output files `Pop.filename.out`  and `Sigma.filename.dat` should be created with the population analysis and the summary of the results, respectively. These files will contain the results for all the $\omega$ values set in `sigma.py` (see Oña $et al.$ for more details). The file `sigma.py` can be edited as needed for the purposes of the calculation at hand. More information can be found as comments in the different files.
+After a successful termination, the output files `Pop.filename.out`  and `Sigma.filename.dat` should be created with the population analysis and the summary of the results, respectively. These files will contain the results for all the $\omega$ values set in `sigma.py` (see Oña $et~al.$ for more details). The file `sigma.py` can be edited as needed for the purposes of the calculation at hand. More information can be found as comments in the different files.
 
 ⚠️ The current version of the code is not optimized for speed.<br>
