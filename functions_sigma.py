@@ -491,8 +491,8 @@ def sim(h,G,C,P_MO,S,Sinv,omega,NE,Niter,method,**kwargs):
           if accept(E_new, E_old, T):
              P_MO_old = P_MO_new
              E_old = E_new
-             a = a0*Ca**i
-             T = T0*CT**i
+          a = a0*Ca**i
+          T = T0*CT**i
     Pf = C.T.conj() @ P_MO_old @ C
     Ff, Ef  = dispersor(Pf,h,G,Sinv,omega,just_en=False,just_var=just_var)
     error =np.linalg.norm(  Ff @ Pf @ S - S @ Pf @ Ff )
@@ -543,8 +543,8 @@ def usim(h,G,C,P_MO,S,Sinv,omega,NE,Niter,method,**kwargs):
           if accept(E_new, E_old, T):
              P_MO_old = P_MO_new
              E_old = E_new
-             a = a0*Ca**i
-             T = T0*CT**i
+          a = a0*Ca**i
+          T = T0*CT**i
     Pf = C.T.conj() @ P_MO_old @ C
     Ff, Ef  = dispersor(Pf,h,G,Sinv,omega,just_en=False,just_var=just_var)
     error =np.linalg.norm(  Ff @ Pf @ S - S @ Pf @ Ff )
@@ -595,8 +595,8 @@ def rosim(h,G,C,P_MO,S,Sinv,omega,NE,Niter,method,**kwargs):
           if accept(E_new, E_old, T):
              P_MO_old = P_MO_new
              E_old = E_new
-             a = a0*Ca**i
-             T = T0*CT**i
+          a = a0*Ca**i
+          T = T0*CT**i
     Pf = C.T.conj() @ P_MO_old @ C
     Ff, Ef  = dispersor(Pf,h,G,Sinv,omega,just_en=False,just_var=just_var)
     error =np.linalg.norm(  Ff @ Pf @ S - S @ Pf @ Ff )
