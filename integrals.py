@@ -8,12 +8,11 @@ from pyscf import lib
 
 mol = gto.Mole()
 mol.atom=[
-       ['H',( 1.09061 ,  0.0000, 0.)],
-       ['H',(-0.545307,  0.9445, 0.)],
-       ['H',(-0.545307, -0.9445, 0.)],
+       ['H',( 0.000 ,  0.0000, 0.)],
+       ['H',( 0.000,  0.0000, 2.4)]
         ]
-mol.basis='sto-3g'
-mol.spin=1
+mol.basis='6-31G**'
+mol.spin=0
 mol.unit = 'B'
 mol.verbose=0
 mol.build()
@@ -35,16 +34,21 @@ np.save('S.npy',S)
 g = mol.intor('int2e_sph', aosym=8)
 np.save('g.npy',g)
 
+ao_to_atom =  [l[0] for l in  mol.ao_labels(fmt=None)   ]
+
 bta=np.array([mol.bas_atom(0)+1])
 for idx in range(1,nao):
-    bta=np.append(bta,mol.bas_atom(int(idx))+1)
+    bta=np.append(bta,ao_to_atom[idx]+1)
     
 np.save('bta.npy',bta)
 
 NR_energy=gto.mole.energy_nuc(mol, charges=None, coords=None)
 
 np.save('NR_energy.npy',NR_energy)
-print('NR_energy: ',NR_energy)
+print(f'NAos   = {nao:6n}')
+print(f'dim(G) = {len(g.ravel()):6n}')
+print(f'dim(S) = {len(S.ravel()):6n}')
+#print('NR_energy: ',NR_energy)
 
 
 
