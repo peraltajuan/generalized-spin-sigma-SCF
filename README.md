@@ -5,10 +5,10 @@ Please see these publications for details:
 + O. B. Oña, G. E. Massaccesi, J. I. Melo, A. Torre, L. Lain, D. R. Alcoba, and
   J. E. Peralta, Generalized Spin $\sigma$-SCF Method (this work; J. Chem. Phys. 159, 214104 (2023).  https://doi.org/10.1063/5.0178264 
 + H.-Z. Ye, M. Welborn, N. D. Ricke, and T. Van Voorhis, $\sigma$-SCF: A direct energy-targeting
-method to mean-field excited states, J. Chem. Phys. 147, 214104 (2017)
+method to mean-field excited states, J. Chem. Phys. 147, 214104 (2017).  https://doi.org/10.1063/1.5001262 
 + G. David, T. J. P. Irons, A. E. A. Fouda, J. W. Furness, and A. M. Teale, Self-consistent
 field methods for excited states in strong magnetic fields: a comparison between energy-
-and variance-based approaches, J. Chem. Theory Comput. 17, 5492–5508 (2021).
+and variance-based approaches, J. Chem. Theory Comput. 17, 5492–5508 (2021). https://doi.org/10.1021/acs.jctc.1c00236 
 
 
 ### Instructions  
