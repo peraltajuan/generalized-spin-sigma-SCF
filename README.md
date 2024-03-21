@@ -3,7 +3,7 @@ This Python 3 code performs generalized spin $\sigma$-SCF calculations with 2-co
 The code can minimize the Hamiltonian dispersion using simulated annealing and/or self-consistent field iterations.
 Please see these publications for details:
 + O. B. Oña, G. E. Massaccesi, J. I. Melo, A. Torre, L. Lain, D. R. Alcoba, and
-  J. E. Peralta, Generalized Spin $\sigma$-SCF Method (this work; to be submitted).
+  J. E. Peralta, Generalized Spin $\sigma$-SCF Method (this work; J. Chem. Phys. 159, 214104 (2023).  https://doi.org/10.1063/5.0178264 
 + H.-Z. Ye, M. Welborn, N. D. Ricke, and T. Van Voorhis, $\sigma$-SCF: A direct energy-targeting
 method to mean-field excited states, J. Chem. Phys. 147, 214104 (2017)
 + G. David, T. J. P. Irons, A. E. A. Fouda, J. W. Furness, and A. M. Teale, Self-consistent
